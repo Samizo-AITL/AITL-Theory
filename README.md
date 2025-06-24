@@ -92,7 +92,7 @@ MIT License
 ## 連絡先 / Contact
 
 Shinichi Samizo  
-Email: samizo@example.com  
+Email: 
 GitHub: [https://github.com/samizo-aitl](https://github.com/samizo-aitl)
 
 ---
