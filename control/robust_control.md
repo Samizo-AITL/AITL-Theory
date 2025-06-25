@@ -4,7 +4,7 @@
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
 
-# 頑健制御（Robust Control）
+# ロバスト制御（Robust Control）
 
 ## 概要
 
