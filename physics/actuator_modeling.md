@@ -21,6 +21,10 @@ AITLにおけるアクチュエータモデリングは、**入力信号と物�
 ---
 
 ## 数理モデルの例
+<script type="text/javascript"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 
 ### 1. 一般的な線形モデル（1次遅れ）
 
