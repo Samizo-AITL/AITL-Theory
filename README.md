@@ -83,3 +83,4 @@ AITL（All-in-Theory Logic）は、次世代AIのための**完全理論ベー�
 - ライセンス：MIT（オープンソース）
 
 ---
+<!-- GitHub Pages trigger -->
