@@ -1,3 +1,9 @@
+<script type="text/javascript"
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
 # デジタル信号処理（Digital Signal Processing, DSP）
 
 ## 概要
