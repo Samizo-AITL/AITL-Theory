@@ -103,3 +103,4 @@ J = \sum_{k=0}^{\infty} \left( x_k^T Q x_k + u_k^T R u_k \right)
 - [3] 三溝 真一, 『AITL制御論概論』, 2025  
 
 ---
+
