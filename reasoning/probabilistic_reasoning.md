@@ -84,3 +84,4 @@ P(H \mid D) = \frac{P(D \mid H) \cdot P(H)}{P(D)}
 - [3] 三溝 真一, 『AITL推論理論概論』, 2025  
 
 ---
+
