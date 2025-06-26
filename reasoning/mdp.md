@@ -86,3 +86,4 @@ V^*(s) = \max_a \left[ R(s,a) + \gamma \sum_{s'} P(s' \mid s,a) V^*(s') \right]
 - [3] 三溝 真一, 『AITL推論理論概論』, 2025  
 
 ---
+
