@@ -85,3 +85,4 @@ P(H \mid D) = \frac{P(D \mid H) \cdot P(H)}{P(D)}
 
 ---
 
+
