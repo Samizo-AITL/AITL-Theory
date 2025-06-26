@@ -58,3 +58,4 @@ u(t) = K_P e(t) + K_I \int_0^t e(\tau) d\tau + K_D \frac{de(t)}{dt}
 - [2] 三溝 真一, 『AITL制御論概論』, 2025  
 
 ---
+
