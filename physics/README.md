@@ -63,4 +63,5 @@ AITLの物理層は、**制御信号と現実世界の間を接続する層**と
 - Spong et al., *Robot Modeling and Control*, 2006  
 - 三溝 真一, 『AITL物理層理論概論』, 2025
 
+
 ---
