@@ -1,4 +1,4 @@
-御層（Control Layer）理論概要
+## 制御層（Control Layer）理論概要
 
 ## 概要
 
