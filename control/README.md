@@ -1,10 +1,4 @@
-<script type="text/javascript"
-  id="MathJax-script"
-  async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
-
-# AITL 制御層（Control Layer）理論概要
+御層（Control Layer）理論概要
 
 ## 概要
 
