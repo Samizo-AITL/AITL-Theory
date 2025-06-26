@@ -1,10 +1,4 @@
 
-<script type="text/javascript"
-  id="MathJax-script"
-  async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
-
 # 状態表現と知識構造（Common Theory）
 
 ## 概要
