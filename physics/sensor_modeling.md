@@ -93,3 +93,4 @@ v_k \sim \mathcal{N}(0, \sigma^2)
 - 三溝 真一, 『AITL物理層理論概論』, 2025
 
 ---
+
