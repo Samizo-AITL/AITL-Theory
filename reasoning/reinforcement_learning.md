@@ -53,8 +53,8 @@ $$
 - 方策自体を直接最適化：
 
 $$
-　\nabla_\theta J(\theta) = \mathbb{E}_{\pi_\theta} [\nabla_\theta \log \pi_\theta(a \mid s) Q^\pi(s, a)]
-
+\nabla_\theta J(\theta) = \mathbb{E}_{s \sim d^{\pi_\theta},\ a \sim \pi_\theta(\cdot \mid s)} 
+\left[ \nabla_\theta \log \pi_\theta(a \mid s) Q^{\pi_\theta}(s, a) \right]
 $$
 
 - Actor-Critic法、PPO（Proximal Policy Optimization）などに発展
