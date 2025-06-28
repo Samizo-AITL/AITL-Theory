@@ -27,32 +27,7 @@ $$
 
 ---
 
-## 方策（Policy）と価値関数
 
-- **方策**：状態に対して行動を選択するルール $( \pi(a \mid s) $)  
-- **状態価値関数**：
-
-$$
-V^{\pi}(s) = \mathbb{E}_{\pi}\left[ \sum_{t=0}^{\infty} \gamma^t R(s_t, a_t) \mid s_0 = s \right]
-$$
-
-- **行動価値関数**：
-
-$$
-Q^{\pi}(s, a) = \mathbb{E}_{\pi}\left[ \sum_{t=0}^{\infty} \gamma^t R(s_t, a_t) \mid s_0 = s, a_0 = a \right]
-$$
-
----
-
-## 最適化とベルマン方程式
-
-最適状態価値関数：
-
-$$
-V^*(s) = \max_a \left[ R(s,a) + \gamma \sum_{s'} P(s' \mid s,a) V^*(s') \right]
-$$
-
-⇒ **動的計画法**や**価値反復法（Value Iteration）**で計算可能
 方策（Policy）と価値関数
 	•	方策：状態に対して行動を選択するルール
 $$
