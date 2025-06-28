@@ -16,17 +16,17 @@ AITLにおける運動学と動力学は、**対象システム（ロボット�
 - 関節角などの入力から末端（エンドエフェクタ）の位置・姿勢を求める  
 - 対象：多関節ロボット、マニピュレータなど
 
-\$$
+$$
 \mathbf{x} = f(\boldsymbol{\theta})
-\$$
+$$
 
 ### 1.2 逆運動学（Inverse Kinematics）
 
 - 目標位置から関節角度を逆算
 
-\$$
+$$
 \boldsymbol{\theta} = f^{-1}(\mathbf{x})
-\$$
+$$
 
 ### 1.3 ドローンや移動体における運動方程式
 
@@ -41,25 +41,25 @@ AITLにおける運動学と動力学は、**対象システム（ロボット�
 
 - 剛体に対する力・トルクと加速度の関係
 
-\$$
+$$
 \mathbf{F} = m \mathbf{a}, \quad \boldsymbol{\tau} = I \boldsymbol{\alpha}
-\$$
+$$
 
 ### 2.2 ラグランジュ法
 
 - エネルギー関数（L = 運動エネルギー - ポテンシャル）を使った一般化座標による記述
 
-\$$
+$$
 \frac{d}{dt} \left( \frac{\partial L}{\partial \dot{q}_i} \right) - \frac{\partial L}{\partial q_i} = Q_i
-\$$
+$$
 
 ### 2.3 状態空間表現
 
 - 動力学系を1階の微分方程式に変換し、制御設計に統合
 
-\$$
+$$
 \dot{x} = A x + B u, \quad y = C x + D u
-\$$
+$$
 
 ---
 
