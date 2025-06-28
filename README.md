@@ -87,3 +87,20 @@ Creator and lead theorist of the AITL framework.
 
 ご質問やフィードバックは Issue またはメールでお気軽にどうぞ。  
 Feel free to reach out via GitHub Issues or email.
+
+---
+
+## 理論詳細リンク / Subtheory Documents
+
+AITLの各層に関する詳細は、以下のサブディレクトリにて定義されています：
+
+| 階層 / Layer     | リンク / File                          | 内容 / Description |
+|------------------|-----------------------------------------|--------------------|
+| 推論層 / Logic    | [reasoning/mdp.md](./reasoning/mdp.md)         | MDPに基づく意思決定モデル、価値関数と報酬構造 |
+| 制御層 / Control  | [control/state_space.md](./control/state_space.md) | 状態空間表現、制御対象の抽象化と設計原理     |
+| 物理層 / Physics  | [physics/sensor_modeling.md](./physics/sensor_modeling.md) | センサノイズ、物理モデル、現実世界の外乱      |
+| 共通定義 / Common | [common/state_representation.md](./common/state_representation.md) | 各層に共通する状態ベクトル・変数記述         |
+| 参考文献 / Refs   | [references/bibliography.md](./references/bibliography.md) | 関連理論、先行研究、背景資料                  |
+
+📌 詳細は `index.md` に体系的にまとめられています：  
+👉 [理論インデックスへ](./index.md)
