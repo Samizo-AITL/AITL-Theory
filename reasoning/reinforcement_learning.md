@@ -54,6 +54,7 @@ Q(s, a) \leftarrow Q(s, a) + \alpha [r + \gamma Q(s', a') - Q(s, a)]
 
 \$$
 \nabla_\theta J(\theta) = \mathbb{E}_{\pi_\theta} [\nabla_\theta \log \pi_\theta(a \mid s) Q^\pi(s, a)]
+
 \$$
 
 - Actor-Critic法、PPO（Proximal Policy Optimization）などに発展
