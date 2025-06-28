@@ -37,6 +37,7 @@ AITLの制御層は、論理的推論と物理モデリングをつなぐ中核�
 $$
 x_{k+1} = A x_k + B u_k
 $$
+
 - 可制御性・可観測性の解析に基づく制御系設計  
 - LQR（Linear Quadratic Regulator）による最適制御にも応用  
 
