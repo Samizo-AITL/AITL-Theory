@@ -30,9 +30,9 @@ AITLでは、未知環境下での自律的な適応・最適行動選択・継�
 
 - オフポリシー型の価値ベース学習
 
-\$$
+$$
 Q(s, a) \leftarrow Q(s, a) + \alpha [r + \gamma \max_{a'} Q(s', a') - Q(s, a)]
-\$$
+$$
 
 - テーブル型または関数近似で実装可能
 
@@ -42,9 +42,9 @@ Q(s, a) \leftarrow Q(s, a) + \alpha [r + \gamma \max_{a'} Q(s', a') - Q(s, a)]
 
 - オンポリシー型：実際に選んだ行動に基づいて更新
 
-\$$
+$$
 Q(s, a) \leftarrow Q(s, a) + \alpha [r + \gamma Q(s', a') - Q(s, a)]
-\$$
+$$
 
 ---
 
@@ -52,10 +52,10 @@ Q(s, a) \leftarrow Q(s, a) + \alpha [r + \gamma Q(s', a') - Q(s, a)]
 
 - 方策自体を直接最適化：
 
-\$$
+$$
 　nabla_\theta J(\theta) = \mathbb{E}_{\pi_\theta} [\nabla_\theta \log \pi_\theta(a \mid s) Q^\pi(s, a)]
 
-\$$
+$$
 
 - Actor-Critic法、PPO（Proximal Policy Optimization）などに発展
 
