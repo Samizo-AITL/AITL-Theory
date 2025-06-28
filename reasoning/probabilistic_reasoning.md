@@ -14,15 +14,15 @@ AITLでは、センサーデータの曖昧さ、状態の不完全観測、複�
 
 ### ベイズの定理（Bayes' Theorem）
 
-\[
+\$$
 P(H \mid D) = \frac{P(D \mid H) \cdot P(H)}{P(D)}
-\]
+\$$
 
-- \( H \)：仮説（Hypothesis）  
-- \( D \)：観測データ（Data）  
-- \( P(H \mid D) \)：事後確率（Posterior）  
-- \( P(D \mid H) \)：尤度（Likelihood）  
-- \( P(H) \)：事前確率（Prior）  
+- \$$( H \$$)：仮説（Hypothesis）  
+- \$$( D \$$)：観測データ（Data）  
+- \$$( P(H \mid D) \$$)：事後確率（Posterior）  
+- \$$( P(D \mid H) \$$)：尤度（Likelihood）  
+- \$$( P(H) \$$)：事前確率（Prior）  
 
 ---
 
