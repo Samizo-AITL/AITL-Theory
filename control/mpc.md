@@ -32,7 +32,7 @@ y_k = C x_k + D u_k
 \$$
 \min_{\{u_k\}} \sum_{i=0}^{N} \left( x_{k+i}^T Q x_{k+i} + u_{k+i}^T R u_{k+i} \right)
 \$$
-\ $$
+\$$
 \text{subject to: } x_{k+i+1} = A x_{k+i} + B u_{k+i}, \quad x_{k+i} \in \mathcal{X}, \quad u_{k+i} \in \mathcal{U}
 \$$
 
