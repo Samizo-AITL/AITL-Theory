@@ -24,11 +24,11 @@ AITLにおいては、状態の依存構造や因果連鎖、推論の効率化�
 Battery → Sensor → Diagnosis
 ↓
 Motor
-
-\[
-P(A, B, C) = P(A) \cdot P(B \mid A) \cdot P(C \mid B)
-\]
 ```
+\$$
+P(A, B, C) = P(A) \cdot P(B \mid A) \cdot P(C \mid B)
+\$$
+
 ---
 
 ### 2. マルコフネットワーク（Markov Random Field）
@@ -59,15 +59,15 @@ P(A, B, C) = P(A) \cdot P(B \mid A) \cdot P(C \mid B)
 
 ## 形式的定義（ベイズネット）
 
-- ノード集合 \( X = \{X_1, X_2, ..., X_n\} \)  
-- 有向辺集合 \( E \)  
+- ノード集合 \$$( X = \{X_1, X_2, ..., X_n\} \$$)  
+- 有向辺集合 \$$( E \$$)  
 - 条件付き確率分布：
 
-\[
+\$$
 P(X_1, ..., X_n) = \prod_{i=1}^n P(X_i \mid Pa(X_i))
-\]
+\$$
 
-ここで \( Pa(X_i) \) は \( X_i \) の親ノード集合
+ここで \$$( Pa(X_i) \$$) は \$$( X_i \$$) の親ノード集合
 
 ---
 
