@@ -38,8 +38,8 @@ P(H \mid D) = \frac{P(D \mid H) \cdot P(H)}{P(D)}
 
 ## 条件付き確率と独立性
 
-- \( P(A \mid B) = \frac{P(A \cap B)}{P(B)} \)  
-- 独立なら \( P(A \cap B) = P(A) P(B) \)
+- \$$( P(A \mid B) = \frac{P(A \cap B)}{P(B)} \$$)  
+- 独立なら \$$( P(A \cap B) = P(A) P(B) \$$)
 
 ---
 
