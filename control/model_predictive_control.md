@@ -22,30 +22,30 @@
 
 システム状態の離散時間表現：
 
-\$$
+$$
 x_{k+1} = A x_k + B u_k
-\$$
+$$
 
-制御入力系列 \$$( \{ u_k, u_{k+1}, \ldots, u_{k+N-1} \} \$$) を決定
+制御入力系列 $( \{ u_k, u_{k+1}, \ldots, u_{k+N-1} \} $) を決定
 
 コスト関数例：
 
-\$$
+$$
 J = \sum_{i=0}^{N-1} \left( x_{k+i}^\top Q x_{k+i} + u_{k+i}^\top R u_{k+i} \right) + x_{k+N}^\top P x_{k+N}
-\$$
+$$
 
 ---
 
 ## 最適化問題
 
-\$$
+$$
 \min_{u} J
-\$$
+$$
 
 subject to
 
-- 状態制約： \$$( x_{k+i} \in \mathcal{X} \$$)  
-- 入力制約： \$$( u_{k+i} \in \mathcal{U} \$$)
+- 状態制約： $( x_{k+i} \in \mathcal{X} $)  
+- 入力制約： $( u_{k+i} \in \mathcal{U} $)
 
 ---
 
