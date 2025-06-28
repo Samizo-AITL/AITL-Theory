@@ -53,7 +53,7 @@ Q(s, a) \leftarrow Q(s, a) + \alpha [r + \gamma Q(s', a') - Q(s, a)]
 - 方策自体を直接最適化：
 
 \$$
-\nabla_\theta J(\theta) = \mathbb{E}_{\pi_\theta} [\nabla_\theta \log \pi_\theta(a \mid s) Q^\pi(s, a)]
+　nabla_\theta J(\theta) = \mathbb{E}_{\pi_\theta} [\nabla_\theta \log \pi_\theta(a \mid s) Q^\pi(s, a)]
 
 \$$
 
