@@ -23,34 +23,30 @@ AITLにおけるアクチュエータモデリングは、**入力信号と物�
 ---
 
 ## 数理モデルの例
-<script type="text/javascript"
-  async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
 
 ### 1. 一般的な線形モデル（1次遅れ）
 
-\[
+\$$
 G(s) = \frac{K}{\tau s + 1}
-\]
+\$$
 
-- \( K \)：ゲイン  
-- \( \tau \)：時定数（応答速度）
+- \$$( K \$$)：ゲイン  
+- \$$( \tau \$$)：時定数（応答速度）
 
 ### 2. 飽和付き非線形モデル
 
-\[
+\$$
 u_{\text{eff}} = \text{sat}(u) = 
 \begin{cases}
 u_{\max}, & u > u_{\max} \\
 u, & u_{\min} \le u \le u_{\max} \\
 u_{\min}, & u < u_{\min}
 \end{cases}
-\]
+\$$
 
 ### 3. 力学系との結合
 
-ロボットの関節トルク入力 \( \tau \) が動力学系 \( M(q)\ddot{q} + C(q,\dot{q})\dot{q} + G(q) \) に入力される構成。
+ロボットの関節トルク入力 \$$( \tau \$$) が動力学系 \$$( M(q)\ddot{q} + C(q,\dot{q})\dot{q} + G(q) \$$) に入力される構成。
 
 ---
 
